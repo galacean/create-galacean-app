@@ -47,9 +47,14 @@ setTimeout(async () => {
 		directory,
 		...(await inquirer.prompt(questions)),
 	};
-	const targetPath = path.join(process.cwd(), anwsers.directory);
+	const cwd = process.cwd();
+	const targetPath = path.join(cwd, anwsers.directory);
 	createApp(anwsers.template, targetPath);
-	console.log(
-		chalk.greenBright(`Create ${anwsers.template} oasis app success!`)
-	);
+	console.log(`\nDone. Now run:\n`);
+	if (targetPath !== cwd) {
+		console.log(`  cd ${path.relative(cwd, targetPath)}`);
+	}
+	console.log(`  npm install (or \`yarn\`)`);
+	console.log(`  npm run dev (or \`yarn dev\`)`);
+	console.log();
 }, 0);
