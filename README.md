@@ -1,15 +1,23 @@
-# umi project
+# @oasis-engine/create-oasis-app
 
-## Getting Started
+## Templates for Oasis App
 
-Install dependencies,
+> Compatibility Note: Node.js version >=12.0.0.
 
-```bash
-$ yarn
+With NPM:
+
+```shell
+npm init @oasis-engine/oasis-app
 ```
 
-Start the dev server,
+With Yarn:
 
-```bash
-$ yarn start
+```shell
+yarn create @oasis-engine/oasis-app
 ```
+
+Currently supported template presets include:
+
+- `vanilla`
+- `react`
+- `vue`
