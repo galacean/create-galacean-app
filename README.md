@@ -1,6 +1,6 @@
 # @oasis-engine/create-oasis-app
 
-## Templates for Oasis App
+## Create Your Oasis Application
 
 > Compatibility Note: Node.js version >=12.0.0.
 
