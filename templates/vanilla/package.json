@@ -1,5 +1,5 @@
 {
-  "name": "test-for-vite",
+  "name": "oasis-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
