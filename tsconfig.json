@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"outDir": "lib",
+		"declaration": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"declarationDir": "types"
+	},
+	"include": ["src/**/*", "bin/**/*"]
+}

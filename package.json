@@ -1,0 +1,44 @@
+{
+  "name": "@oasis-engine/create-oasis-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "bin",
+    "templates"
+  ],
+  "bin": {
+    "create-oasis-app": "bin/create-oasis-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oasis-engine/create-oasis-app.git"
+  },
+  "keywords": [
+    "oasis"
+  ],
+  "authors": [
+    "husong <gz65555@gmail.com> (https://github.com/gz65555)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oasis-engine/create-oasis-app/issues"
+  },
+  "homepage": "https://github.com/oasis-engine/create-oasis-app#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.24",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "cac": "^6.7.1"
+  }
+}
