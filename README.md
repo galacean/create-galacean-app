@@ -15,7 +15,7 @@ A tool for creating your oasis application. Currently supported template presets
 npm init @oasis-engine/oasis-app
 ```
 
-### yarn:
+### yarn
 
 ```shell
 yarn create @oasis-engine/oasis-app
@@ -28,7 +28,7 @@ npm install
 npm run dev
 ```
 
-You can see:
+Open your browser, you can see:
 
 ![image-20210208112945261](https://gw.alipayobjects.com/zos/OasisHub/3dfda7c5-7c65-4976-bc56-6d1f47592a31/image-20210208112945261.png)
 
