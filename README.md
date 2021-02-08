@@ -2,9 +2,9 @@
 
 A tool for creating your oasis application. Currently supported template presets include:
 
-- `vanilla`
-- `react`
-- `vue`
+- `Vanilla`
+- `React`
+- `Vue`
 
 ## Usage
 
