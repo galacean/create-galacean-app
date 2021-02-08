@@ -1,28 +1,27 @@
-## Create Your Oasis Application
+# Create Oasis App
 
-A tool for creating your oasis application.
-
-> Compatibility Note: Node.js version >=12.0.0.
-
-With NPM:
-
-```shell
-npm init @oasis-engine/oasis-app
-```
-
-With Yarn:
-
-```shell
-yarn create @oasis-engine/oasis-app
-```
-
-Currently supported template presets include:
+A tool for creating your oasis application. Currently supported template presets include:
 
 - `vanilla`
 - `react`
 - `vue`
 
-After creating a project, run: 
+## Usage
+
+### npm
+> Compatibility Note: Node.js version >=12.0.0.
+
+```shell
+npm init @oasis-engine/oasis-app
+```
+
+### yarn:
+
+```shell
+yarn create @oasis-engine/oasis-app
+```
+
+After creating a template, run: 
 
 ``` shell
 npm install
