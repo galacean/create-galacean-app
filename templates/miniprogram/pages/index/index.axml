@@ -1,0 +1,4 @@
+<view>
+  <!-- hello -->
+  <canvas onReady="onCanvasReady" class="full" id="canvas" type="webgl"/>
+</view>
