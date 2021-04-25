@@ -35,10 +35,10 @@ Page({
           // init cube
           const cubeEntity = rootEntity.createChild("cube");
           const renderer = cubeEntity.addComponent(o3.GeometryRenderer);
-          renderer.geometry = new o3.CuboidGeometry(engine);
+          renderer.mesh = new o3.PrimitiveMesh.createCuboid(engine);
           const material = new o3.BlinnPhongMaterial(engine, "blinn");
-          material.emission = new o3.Vector4(1, 0.25, 0.25, 1);
-          renderer.material = material;
+          material.baseColor = new o3.Vector4(1, 0.25, 0.25, 1);
+          renderer.setMaterial(material);
 
           engine.run();
 
