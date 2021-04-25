@@ -2,8 +2,8 @@ import {
 	AmbientLight,
 	BlinnPhongMaterial,
 	Camera,
-	CuboidGeometry,
-	GeometryRenderer,
+	MeshRenderer,
+	PrimitiveMesh,
 	Vector3,
 	WebGLEngine,
 } from "oasis-engine";
@@ -26,13 +26,14 @@ light.intensity = 1.2;
 
 // init cube
 const cubeEntity = rootEntity.createChild("cube");
-const renderer = cubeEntity.addComponent(GeometryRenderer);
-renderer.geometry = new CuboidGeometry(engine);
-const mtl = (renderer.material = new BlinnPhongMaterial(engine));
-const color = mtl.emissiveColor;
+const renderer = cubeEntity.addComponent(MeshRenderer);
+const mtl = new BlinnPhongMaterial(engine);
+const color = mtl.baseColor;
 color.r = 0.0;
 color.g = 0.8;
 color.b = 0.5;
 color.a = 1.0;
+renderer.mesh = PrimitiveMesh.createCuboid(engine);
+renderer.setMaterial(mtl);
 
 engine.run();
