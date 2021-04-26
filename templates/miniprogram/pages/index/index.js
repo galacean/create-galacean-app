@@ -32,13 +32,20 @@ Page({
           cameraEntity.transform.position = pos;
           cameraEntity.transform.lookAt(new o3.Vector3(0, 0, 0));
 
+          const light = rootEntity.addComponent(o3.AmbientLight);
+	        light.intensity = 1.2;
+
           // init cube
           const cubeEntity = rootEntity.createChild("cube");
-          const renderer = cubeEntity.addComponent(o3.GeometryRenderer);
-          renderer.mesh = new o3.PrimitiveMesh.createCuboid(engine);
-          const material = new o3.BlinnPhongMaterial(engine, "blinn");
-          material.baseColor = new o3.Vector4(1, 0.25, 0.25, 1);
-          renderer.setMaterial(material);
+          const renderer = cubeEntity.addComponent(o3.MeshRenderer);
+          const mtl = new o3.BlinnPhongMaterial(engine);
+          const color = mtl.baseColor;
+          color.r = 0.0;
+          color.g = 0.8;
+          color.b = 0.5;
+          color.a = 1.0;
+          renderer.mesh = o3.PrimitiveMesh.createCuboid(engine);
+	        renderer.setMaterial(mtl);
 
           engine.run();
 
