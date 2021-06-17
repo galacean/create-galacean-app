@@ -19,10 +19,10 @@ Page({
           canvas.height = (windowHeight - titleBarHeight) * pixelRatio;
           registerCanvas(canvas);
 
-
           const engine = new o3.WebGLEngine(canvas);
           // engine.canvas.resizeByClientSize();
-          const rootEntity = engine.sceneManager.activeScene.createRootEntity();
+          const scene = engine.sceneManager.activeScene;
+          const rootEntity = scene.createRootEntity();
 
           // init camera
           const cameraEntity = rootEntity.createChild("camera");
@@ -32,8 +32,9 @@ Page({
           cameraEntity.transform.position = pos;
           cameraEntity.transform.lookAt(new o3.Vector3(0, 0, 0));
 
-          const light = rootEntity.addComponent(o3.AmbientLight);
-	        light.intensity = 1.2;
+          // init light
+          scene.ambientLight.diffuseSolidColor.setValue(1, 1, 1, 1);
+	        scene.ambientLight.diffuseIntensity = 1.2;
 
           // init cube
           const cubeEntity = rootEntity.createChild("cube");

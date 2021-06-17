@@ -1,5 +1,4 @@
 import {
-	AmbientLight,
 	BlinnPhongMaterial,
 	Camera,
 	MeshRenderer,
@@ -11,7 +10,8 @@ import {
 export function createOasis() {
 	const engine = new WebGLEngine("canvas");
 	engine.canvas.resizeByClientSize();
-	const rootEntity = engine.sceneManager.activeScene.createRootEntity();
+	const scene = engine.sceneManager.activeScene;
+	const rootEntity = scene.createRootEntity();
 
 	// init camera
 	const cameraEntity = rootEntity.createChild("camera");
@@ -22,8 +22,8 @@ export function createOasis() {
 	cameraEntity.transform.lookAt(new Vector3(0, 0, 0));
 
 	// init light
-	const light = rootEntity.addComponent(AmbientLight);
-	light.intensity = 1.2;
+	scene.ambientLight.diffuseSolidColor.setValue(1, 1, 1, 1);
+	scene.ambientLight.diffuseIntensity = 1.2;
 
 	// init cube
 	const cubeEntity = rootEntity.createChild("cube");

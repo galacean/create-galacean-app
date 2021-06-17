@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "@oasis-engine/miniprogram-adapter": "^0.0.2",
-    "oasis-engine": "^0.3.0"
+    "oasis-engine": "^0.4.0"
   }
 }
