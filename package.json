@@ -15,7 +15,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "prepublishOnly": "y build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
