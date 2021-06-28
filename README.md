@@ -2,9 +2,11 @@
 
 A tool for creating your oasis application. Currently supported template presets include:
 
-- `Vanilla`
-- `React`
-- `Vue`
+- `Vanilla`(Use Vanilla JavaScript/TypeScript)
+- `React`(React Template)
+- `Vue`(Vue Template)
+- `Ali-Mini`(Alibaba Mini Program)
+- `Library`(Oasis Library)
 
 ## Usage
 
