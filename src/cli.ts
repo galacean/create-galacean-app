@@ -35,10 +35,22 @@ if (!template) {
 			{ name: chalk.cyan("React"), value: "react" },
 			{ name: chalk.green("Vue"), value: "vue" },
 			{ name: chalk.blueBright("Ali-Mini"), value: "miniprogram" },
+			{ name: chalk.blueBright("Library"), value: "library" },
 		],
 		default: ".",
 	});
 }
+
+questions.push({
+	type: "input",
+	name: "lib",
+	message: "Input the name of library:",
+	default: "oasis-lib",
+	when: (answers) => {
+		const t = template ?? answers.template;
+		return template === "library";
+	},
+});
 
 // supress warning
 setTimeout(async () => {
@@ -46,11 +58,12 @@ setTimeout(async () => {
 	const anwsers = {
 		template,
 		directory,
+		lib: undefined,
 		...(await inquirer.prompt(questions)),
 	};
 	const cwd = process.cwd();
 	const targetPath = path.join(cwd, anwsers.directory);
-	createApp(anwsers.template, targetPath);
+	createApp(anwsers.template, targetPath, anwsers.lib);
 	console.log(`\nDone. Now run:\n`);
 	if (targetPath !== cwd) {
 		console.log(`  cd ${path.relative(cwd, targetPath)}`);
