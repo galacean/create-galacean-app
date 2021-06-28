@@ -3,10 +3,17 @@ import { createApp } from "./create-app";
 import inquirer from "inquirer";
 import chalk from "chalk";
 import path from "path";
+import fs from "fs";
 
 const cli = cac();
 
 cli.option("-t, --template [template]", "Choose your project template");
+
+try {
+	const p = path.join(__dirname, "../package.json");
+	const pkg = JSON.parse(fs.readFileSync(p, { encoding: "utf-8" }));
+	console.log(`create-oasis-app: ` + pkg.version);
+} catch (e) {}
 
 // cli.help();
 const parsed = cli.parse();
