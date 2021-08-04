@@ -47,7 +47,6 @@ Page({
           color.a = 1.0;
           renderer.mesh = o3.PrimitiveMesh.createCuboid(engine);
 	        renderer.setMaterial(mtl);
-
           engine.run();
 
         } else {
