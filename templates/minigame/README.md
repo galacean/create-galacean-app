@@ -1,4 +1,4 @@
-# 小游戏 Oasis 项目模板
+# 支付宝小游戏 Oasis 项目模板
 
 ## Feature
 
