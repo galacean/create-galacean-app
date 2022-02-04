@@ -26,6 +26,6 @@
     "vite": "^2.3.8"
   },
   "dependencies": {
-    "oasis-engine": "^0.5"
+    "oasis-engine": "^0.6"
   }
 }
