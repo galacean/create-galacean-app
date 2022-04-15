@@ -9,6 +9,10 @@
     "build": "tsc && rollup -c",
     "serve": "vite preview"
   },
+  "files": [
+    "types",
+    "dist"
+  ],
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/plugin-proposal-class-properties": "^7.14.5",
