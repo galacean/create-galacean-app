@@ -5,7 +5,8 @@
   "module": "dist/index.module.js",
   "typings": "types/index.d.ts",
   "scripts": {
-    "dev": "vite",
+    "example": "vite",
+    "dev": "rollup -c",
     "build": "tsc && rollup -c",
     "serve": "vite preview"
   },
