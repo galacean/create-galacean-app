@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "oasis-engine": "^0.6",
+    "oasis-engine": "^0.7",
     "vue": "^3.2.0"
   },
   "devDependencies": {
