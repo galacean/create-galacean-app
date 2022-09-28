@@ -1,6 +1,24 @@
 {
+  "name": "oasis-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite build -w",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.1",
+    "vite": "^2"
+  },
+  "tnpm": {
+    "mode": "yarn"
+  },
   "dependencies": {
-    "@oasis-engine/miniprogram-adapter": "^0.0.2",
-    "oasis-engine": "^0.7"
+    "oasis-engine": "^0.8.0-beta.30",
+    "@oasis-engine/physics-lite": "^0.8.0-beta.30",
+    "@oasis-engine-toolkit/controls": "^0.8.0-beta.8",
+    "@oasis-engine/miniprogram-adapter": "^0.3.6",
+    "fs-extra": "^10.1.0",
+    "typescript": "^3.9.3"
   }
 }

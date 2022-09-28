@@ -1,0 +1,6 @@
+<view class="full">
+  <canvas disable-scroll="true" onReady="onCanvasReady" class="full" id="canvas" type="webgl"/>
+  <view disable-scroll="true" class="full"
+    onTouchStart="onTouchStart" onTouchMove="onTouchMove" onTouchEnd="onTouchEnd" onTouchCancel="onTouchCancel" >
+  </view>
+</view>
