@@ -123,7 +123,6 @@ export class GameCtrl {
     // 添加文字
     const textEntity = root.createChild("text");
     textEntity.transform.setPosition(0, 1.5, 0);
-    textEntity.transform.setScale(0.5, 0.5, 0.5);
     const textRenderer = textEntity.addComponent(TextRenderer);
     textRenderer.fontSize = 30;
     textRenderer.text = "点击方块会弹出 toast !";
