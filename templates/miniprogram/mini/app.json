@@ -1,0 +1,8 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "v8WorkerPlugins": "gcanvas_runtime,v8jsbridge",
+    "defaultTitle": "My App",
+    "v8Worker": 1
+  }
+}
