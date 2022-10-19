@@ -1,6 +1,6 @@
 ## Oasis 0.8 适配 Demo
 
-## npm
+## 快速开始
 本 Demo 所有的依赖库都可通过 npm 加载获取。
 
 ```sh
@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-## 额外
+## 补充说明
 
 项目通过 Vite 构建, 渲染部分使用了 Oasis 引擎，这里简单介绍一下项目的基本结构。
 
