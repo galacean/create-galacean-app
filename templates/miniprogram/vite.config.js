@@ -33,6 +33,7 @@ module.exports = defineConfig(({ command }) => {
         rollupOptions: {
           external: ["@oasis-engine/miniprogram-adapter"],
           output: {
+            entryFileNames: "oasis-app.umd.js",
             globals: {},
           },
           plugins: [],
