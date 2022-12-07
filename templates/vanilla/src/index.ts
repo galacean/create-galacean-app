@@ -16,12 +16,12 @@ const rootEntity = scene.createRootEntity();
 const cameraEntity = rootEntity.createChild("camera");
 cameraEntity.addComponent(Camera);
 const pos = cameraEntity.transform.position;
-pos.setValue(10, 10, 10);
+pos.set(10, 10, 10);
 cameraEntity.transform.position = pos;
 cameraEntity.transform.lookAt(new Vector3(0, 0, 0));
 
 // init light
-scene.ambientLight.diffuseSolidColor.setValue(1, 1, 1, 1);
+scene.ambientLight.diffuseSolidColor.set(1, 1, 1, 1);
 scene.ambientLight.diffuseIntensity = 1.2;
 
 // init cube
