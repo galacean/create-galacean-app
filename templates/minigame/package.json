@@ -10,7 +10,7 @@
     "vite": "^2"
   },
   "dependencies": {
-    "@oasis-engine/controls": "^0.7",
-    "oasis-engine": "^0.7"
+    "@oasis-engine/controls": "^0.8.2",
+    "oasis-engine": "^0.8.2"
   }
 }
