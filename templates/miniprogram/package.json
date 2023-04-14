@@ -1,5 +1,5 @@
 {
-  "name": "oasis-mini-app",
+  "name": "galacean-mini-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite build -w",
@@ -14,9 +14,9 @@
     "mode": "yarn"
   },
   "dependencies": {
-    "oasis-engine": "^0.8.2",
-    "@oasis-engine/physics-lite": "^0.8.0-beta.30",
-    "@oasis-engine-toolkit/controls": "^0.8.0-beta.8",
-    "@oasis-engine/miniprogram-adapter": "^0.3.6"
+    "@galacean/engine": "^0.9",
+    "@galacean/physics-lite": "^0.8.0-beta.30",
+    "@galacean/engine-toolkit": "^0.8.0-beta.8",
+    "@galacean/miniprogram-adapter": "^0.3.6"
   }
 }

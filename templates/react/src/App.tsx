@@ -1,9 +1,9 @@
 import React from "react";
-import { createOasis } from "./oasis";
+import { createRuntime } from "./runtime";
 
 function App() {
 	React.useEffect(() => {
-		createOasis();
+		createRuntime();
 	}, []);
 
 	return (

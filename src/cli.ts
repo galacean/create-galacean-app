@@ -12,7 +12,7 @@ cli.option("-t, --template [template]", "Choose your project template");
 try {
 	const p = path.join(__dirname, "../package.json");
 	const pkg = JSON.parse(fs.readFileSync(p, { encoding: "utf-8" }));
-	console.log(`create-oasis-app: ` + pkg.version);
+	console.log(`create-galacean-app: ` + pkg.version);
 } catch (e) {}
 
 // cli.help();
@@ -52,7 +52,7 @@ questions.push({
 	type: "input",
 	name: "lib",
 	message: "Input the name of library:",
-	default: "oasis-lib",
+	default: "galacean-lib",
 	when: (answers) => {
 		const t = template ?? answers.template;
 		return template === "library";
@@ -61,7 +61,7 @@ questions.push({
 
 // supress warning
 setTimeout(async () => {
-	console.log(chalk.cyanBright("You are creating an oasis application."));
+	console.log(chalk.cyanBright("You are creating an galacean application."));
 	const anwsers = {
 		template,
 		directory,

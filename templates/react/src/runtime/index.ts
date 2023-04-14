@@ -5,9 +5,9 @@ import {
 	PrimitiveMesh,
 	Vector3,
 	WebGLEngine,
-} from "oasis-engine";
+} from "@galacean/engine";
 
-export function createOasis() {
+export function createRuntime() {
 	const engine = new WebGLEngine("canvas");
 	engine.canvas.resizeByClientSize();
 	const scene = engine.sceneManager.activeScene;

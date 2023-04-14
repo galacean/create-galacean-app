@@ -1,5 +1,5 @@
 {
-  "name": "vue-oasis",
+  "name": "vue-galacean",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "oasis-engine": "^0.8.2",
+    "@galacean/engine": "^0.9",
     "vue": "^3.2.0"
   },
   "devDependencies": {

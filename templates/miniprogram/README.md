@@ -1,4 +1,4 @@
-## Oasis 0.8 适配 Demo
+## Galacean 0.8 适配 Demo
 
 ## 快速开始
 本 Demo 所有的依赖库都可通过 npm 加载获取。
@@ -14,7 +14,7 @@ npm run dev
 ```
 ## 补充说明
 
-项目通过 Vite 构建, 渲染部分使用了 Oasis 引擎，这里简单介绍一下项目的基本结构。
+项目通过 Vite 构建, 渲染部分使用了 Galacean 引擎，这里简单介绍一下项目的基本结构。
 
 ![image](https://user-images.githubusercontent.com/7768919/196590399-0cd6723b-18b0-4d7e-8136-6cd442e040db.png)
 

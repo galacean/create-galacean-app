@@ -13,10 +13,10 @@ import {
   TextRenderer,
   Vector3,
   WebGLEngine,
-} from "oasis-engine";
+} from "@galacean/engine";
 import { MiniAdapter } from "./adapter/MiniAdapter";
-import { OrbitControl } from "@oasis-engine-toolkit/controls";
-import { LitePhysics } from "@oasis-engine/physics-lite";
+import { OrbitControl } from "@galacean/engine-toolkit";
+import { LitePhysics } from "@galacean/engine-physics-lite";
 
 export enum GameState {
   // 未初始化

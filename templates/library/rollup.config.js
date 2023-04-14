@@ -37,7 +37,7 @@ export default [{
 	input: "./src/index.ts",
 	// Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
 	// https://rollupjs.org/guide/en#external-e-external
-	external: ["oasis-engine"],
+	external: ["@galacean/engine"],
 
 	plugins,
 
@@ -51,7 +51,7 @@ export default [{
 			format: "umd",
 			name,
 			globals: {
-				"oasis-engine": "oasisEngine",
+				"@galacean/engine": "Galacean",
 			},
 		},
 	],
@@ -64,6 +64,6 @@ export default [{
 			sourcemap: false
 		}
 	],
-	external: ["oasis-engine/dist/miniprogram", "@oasis-engine/miniprogram-adapter"],
+	external: ["@galacean/engine/dist/miniprogram", "@galacean/miniprogram-adapter"],
 	plugins: [...plugins, ...miniProgramPlugin]
 }];

@@ -1,6 +1,6 @@
 {
-  "name": "@oasis-engine/create-oasis-app",
-  "version": "0.8.0",
+  "name": "@galacean/create-galacean-app",
+  "version": "0.9.0",
   "description": "",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
@@ -10,7 +10,7 @@
     "templates"
   ],
   "bin": {
-    "create-oasis-app": "bin/create-oasis-app.js"
+    "create-galacean-app": "bin/create-galacean-app.js"
   },
   "scripts": {
     "build": "tsc",
@@ -19,19 +19,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oasis-engine/create-oasis-app.git"
+    "url": "git+https://github.com/galacean/create-galacean-app.git"
   },
   "keywords": [
-    "oasis"
+    "galacean",
+    "webgl"
   ],
   "authors": [
     "husong <gz65555@gmail.com> (https://github.com/gz65555)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oasis-engine/create-oasis-app/issues"
+    "url": "https://github.com/galacean/create-galacean-app/issues"
   },
-  "homepage": "https://github.com/oasis-engine/create-oasis-app#readme",
+  "homepage": "https://github.com/galacean/create-galacean-app#readme",
   "publishConfig": {
     "access": "public"
   },

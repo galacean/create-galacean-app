@@ -1,5 +1,5 @@
 {
-	"name": "react-oasis",
+	"name": "react-galacean",
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite",
@@ -9,7 +9,7 @@
 	"dependencies": {
 		"react": "^17.0.0",
 		"react-dom": "^17.0.0",
-		"oasis-engine": "^0.8.2"
+		"@galacean/engine": "^0.9"
 	},
 	"devDependencies": {
 		"@types/react": "^17.0.0",

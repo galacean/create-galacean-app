@@ -1,11 +1,11 @@
-import { start } from "../../dist/oasis-app.umd";
+import { start } from "../../dist/galacean-app.umd";
 import {
   registerCanvas,
   dispatchPointerDown,
   dispatchPointerMove,
   dispatchPointerUp,
   dispatchPointerOut,
-} from "@oasis-engine/miniprogram-adapter";
+} from "@galacean/miniprogram-adapter";
 Page({
   onCanvasReady() {
     my._createCanvas({

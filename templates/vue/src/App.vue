@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { createOasis } from "./oasis";
+import { createRuntime } from "./runtime";
 
 onMounted(() => {
-  createOasis();
+  createRuntime();
 })
 </script>
 

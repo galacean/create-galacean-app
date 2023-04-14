@@ -1,5 +1,5 @@
 {
-  "name": "oasis-app",
+  "name": "galacean-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,6 @@
     "vite": "^2"
   },
   "dependencies": {
-    "oasis-engine": "^0.8.2"
+    "@galacean/engine": "^0.9"
   }
 }

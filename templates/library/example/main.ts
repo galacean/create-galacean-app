@@ -1,4 +1,4 @@
-import { BlinnPhongMaterial, Camera, MeshRenderer, PrimitiveMesh, Vector3, WebGLEngine } from "oasis-engine";
+import { BlinnPhongMaterial, Camera, MeshRenderer, PrimitiveMesh, Vector3, WebGLEngine } from "@galacean/engine";
 import { MyComponent } from "../src/index";
 
 const engine = new WebGLEngine("canvas");

@@ -1,4 +1,4 @@
-import { Logger } from "oasis-engine";
+import { Logger } from "@galacean/engine";
 import { MiniAdapter } from "./adapter/MiniAdapter";
 import { GameCtrl, GameState } from "./GameCtrl";
 
