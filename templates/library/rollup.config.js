@@ -64,6 +64,6 @@ export default [{
 			sourcemap: false
 		}
 	],
-	external: ["@galacean/engine/dist/miniprogram", "@galacean/miniprogram-adapter"],
+	external: ["@galacean/engine/dist/miniprogram", "@galacean/engine-miniprogram-adapter"],
 	plugins: [...plugins, ...miniProgramPlugin]
 }];

@@ -5,7 +5,7 @@ import {
   dispatchPointerMove,
   dispatchPointerUp,
   dispatchPointerOut,
-} from "@galacean/miniprogram-adapter";
+} from "@galacean/engine-miniprogram-adapter";
 Page({
   onCanvasReady() {
     my._createCanvas({

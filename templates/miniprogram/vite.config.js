@@ -31,7 +31,7 @@ module.exports = defineConfig(({ command }) => {
       // build 独有配置
       build: {
         rollupOptions: {
-          external: ["@galacean/miniprogram-adapter"],
+          external: ["@galacean/engine-miniprogram-adapter"],
           output: {
             entryFileNames: "galacean-app.umd.js",
             globals: {},

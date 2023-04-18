@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@galacean/engine": "^0.9",
-    "@galacean/physics-lite": "^0.8.0-beta.30",
-    "@galacean/engine-toolkit": "^0.8.0-beta.8",
-    "@galacean/miniprogram-adapter": "^0.3.6"
+    "@galacean/physics-lite": "^9",
+    "@galacean/engine-toolkit": "^9",
+    "@galacean/engine-miniprogram-adapter": "^0.0.1"
   }
 }
