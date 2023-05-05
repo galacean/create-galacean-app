@@ -4,7 +4,8 @@ import {
   dispatchPointerDown,
   dispatchPointerMove,
   dispatchPointerUp,
-  dispatchPointerOut,
+  dispatchPointerLeave,
+  dispatchPointerCancel,
 } from "@galacean/engine-miniprogram-adapter";
 Page({
   onCanvasReady() {
@@ -36,6 +37,7 @@ Page({
 
   onTouchEnd(e) {
     dispatchPointerUp(e);
+    dispatchPointerLeave(e);
   },
   onTouchStart(e) {
     dispatchPointerDown(e);
@@ -44,6 +46,6 @@ Page({
     dispatchPointerMove(e);
   },
   onTouchCancel(e) {
-    dispatchPointerOut(e);
+    dispatchPointerCancel(e);
   },
 });

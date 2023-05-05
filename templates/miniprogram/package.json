@@ -17,6 +17,6 @@
     "@galacean/engine": "^0.9",
     "@galacean/engine-physics-lite": "^0.9",
     "@galacean/engine-toolkit": "^0.9",
-    "@galacean/engine-miniprogram-adapter": "^0.0.1"
+    "@galacean/engine-miniprogram-adapter": "^0.0.2"
   }
 }
