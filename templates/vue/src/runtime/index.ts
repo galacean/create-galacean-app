@@ -7,8 +7,11 @@ import {
 	WebGLEngine,
 } from "@galacean/engine";
 
-export function createRuntime() {
-	const engine = new WebGLEngine("canvas");
+export async function createRuntime() {
+	const engine = await WebGLEngine.create({
+		canvas: document.getElementById("canvas") as HTMLCanvasElement,
+	});
+
 	engine.canvas.resizeByClientSize();
 	const scene = engine.sceneManager.activeScene;
 	const rootEntity = scene.createRootEntity();

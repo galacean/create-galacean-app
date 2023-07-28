@@ -8,6 +8,14 @@ onMounted(() => {
 </script>
 
 <template>
-	<canvas style="width: 100vw; height: 100vh" id="canvas" />
+	<canvas id="canvas" />
 </template>
 
+<style>
+#canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+</style>

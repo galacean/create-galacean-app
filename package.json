@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
+    "dev:vue": "pnpm -C templates/vue dev",
     "prepublishOnly": "npm run build"
   },
   "repository": {
