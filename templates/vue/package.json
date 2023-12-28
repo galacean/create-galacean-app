@@ -9,13 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@galacean/engine": "1.0.0-beta.17",
-    "vue": "^3.3.4"
+    "@galacean/engine": "1.0.5",
+    "vue": "^3.3.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5",
-    "vue-tsc": "^1.8.5"
+    "@galacean/engine-toolkit-controls": "^1.0.1",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vue-tsc": "^1.8.27"
   }
 }

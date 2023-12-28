@@ -6,6 +6,7 @@ import {
 	Vector3,
 	WebGLEngine,
 } from "@galacean/engine";
+import { OrbitControl } from '@galacean/engine-toolkit-controls'
 
 export async function createRuntime() {
 	const engine = await WebGLEngine.create({
@@ -19,6 +20,8 @@ export async function createRuntime() {
 	// init camera
 	const cameraEntity = rootEntity.createChild("camera");
 	cameraEntity.addComponent(Camera);
+	cameraEntity.addComponent(OrbitControl);
+	
 	const pos = cameraEntity.transform.position;
 	pos.set(10, 10, 10);
 	cameraEntity.transform.position = pos;
