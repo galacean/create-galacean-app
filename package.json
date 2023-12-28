@@ -1,6 +1,6 @@
 {
   "name": "create-galacean",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
