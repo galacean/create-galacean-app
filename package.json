@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
+  "packageManager": "pnpm@8.6.2",
   "files": [
     "lib",
     "bin",
