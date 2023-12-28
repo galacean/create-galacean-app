@@ -11,18 +11,24 @@ A tool for creating your galacean application. Currently supported template pres
 
 ## Usage
 
+### pnpm
+
+```bash
+pnpm create galacean
+```
+
 ### npm
 
 > Compatibility Note: Node.js version >=12.0.0.
 
 ```shell
-npm init @galacean/galacean-app
+npm init galacean
 ```
 
 ### yarn
 
 ```shell
-yarn create @galacean/galacean-app
+yarn create galacean
 ```
 
 After creating a template, run:
