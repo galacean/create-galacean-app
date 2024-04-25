@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@galacean/engine": "1.0.5",
+    "@galacean/engine": "^1.1.0",
     "vue": "^3.3.13"
   },
   "devDependencies": {

@@ -31,6 +31,6 @@
     "vite": "^4"
   },
   "dependencies": {
-    "@galacean/engine": "^1.0.0"
+    "@galacean/engine": "^1.1.0"
   }
 }
