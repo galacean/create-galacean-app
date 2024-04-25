@@ -7,9 +7,9 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2"
+    "vite": "^4"
   },
   "dependencies": {
-    "@galacean/engine": "^0.9"
+    "@galacean/engine": "^1.0.0"
   }
 }

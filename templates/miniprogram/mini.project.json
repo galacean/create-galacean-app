@@ -1,8 +1,0 @@
-{
-  "useDynamicPlugins": true,
-  "enableAppxNg": true,
-  "miniprogramRoot": "./mini",
-  "compileOptions": {
-    "typescript": false
-  }
-}
