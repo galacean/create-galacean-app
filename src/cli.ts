@@ -41,7 +41,6 @@ if (!template) {
 			{ name: chalk.yellow("Vanilla"), value: "vanilla" },
 			{ name: chalk.cyan("React"), value: "react" },
 			{ name: chalk.green("Vue"), value: "vue" },
-			{ name: chalk.blueBright("Ali-Mini"), value: "miniprogram" },
 			{ name: chalk.redBright("Library"), value: "library" },
 		],
 		default: ".",
